@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+//
 namespace eShopSolution.Data.Entities
 {
     public class OrderDetail
@@ -10,7 +10,9 @@ namespace eShopSolution.Data.Entities
         public int ProductId { set; get; }
         public int Quantity { set; get; }
         public decimal Price { set; get; }
+
         public Order Order { set; get; }
         public Product Product { set; get; }
+
     }
 }

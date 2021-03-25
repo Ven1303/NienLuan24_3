@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+// Hoan thien
 namespace eShopSolution.Data.Entities
 {
     public class Contact
